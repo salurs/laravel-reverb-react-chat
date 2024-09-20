@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.user-list-head{
+    background-color: red;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    padding: 10px;
+    border-radius: 15px 15px 0 0;
+    min-width: 150px;
+    text-align: center;
+}
+.height-screen{
+    height: calc(100vh - 150px);
+}
+
+.message-width{
+    max-width: 80%;
+}
